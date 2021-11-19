@@ -24,27 +24,6 @@ p {
     line-height: 1.4 em;
 }
 
-#dog1 {
-    color:rgb(37, 88, 121);
-}
-
-#dog2 {
-    color:rgb(37, 88, 121);
-}
-
-#hello-features {
-    color:rgb(37, 88, 121);
-}
-
-.section-heading {
-    color:rgb(26, 54, 71);
-}
-
-img[src] {
-    padding: 10px;
-    background: rgb(135, 217, 238);
-}
-
 .sticky {
   color: white;
   padding: 20px;
@@ -69,10 +48,4 @@ img[src] {
   flex: 50%;
   padding: 20px;
   margin: 10px;
-}
-
-@media (max-width: 400px) {
-    body {
-        background-color: lightgreen;
-    }
 }
