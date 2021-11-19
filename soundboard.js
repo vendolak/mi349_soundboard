@@ -1,4 +1,4 @@
-<button id="my-first-button">
+/* <button id="my-first-button">
     I'm a button!
 </button>
 
@@ -9,4 +9,11 @@ button.addEventListener('click', soundPlay);
 function soundPlay(){
     var audio = new Audio("bloop_x.wav");
     audio.play();
+} */
+
+function PlaySound(melody) {
+    alert("On Press of "+melody);
+    var path = "path\\to\\melody\\"
+    var snd = new Audio(path + melody + ".wav");
+    snd.play();
 }
