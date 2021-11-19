@@ -10,17 +10,27 @@
     <body>
         
         <input type="button" value="Bloop" onclick="play()">
-        <audio id="bloop_x" src="bloop_x.wav"></audio>
+        <audio id="audio1" src="bloop_x.wav"></audio>
 
         <input type="button" value="Airplane" onclick="play()">
-        <audio id="airplane_chime_x" src="airplane_chime_x.wav"></audio>
+        <audio id="audio2" src="airplane_chime_x.wav"></audio>
 
         <input type="button" value="Boing" onclick="play()">
-        <audio id="boing_x" src="boing_x.wav"></audio>
+        <audio id="audio3" src="boing_x.wav"></audio>
 
         <script>
             function play() {
-            var audio = document.getElementById("audio");
+            var audio = document.getElementById("audio1");
+            audio.play();
+            }
+
+            function play() {
+            var audio = document.getElementById("audio2");
+            audio.play();
+            }
+
+            function play() {
+            var audio = document.getElementById("audio3");
             audio.play();
             }
         </script>
