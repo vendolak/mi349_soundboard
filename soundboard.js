@@ -11,9 +11,9 @@ function soundPlay(){
     audio.play();
 } */
 
-function PlaySound(melody) {
-    alert("On Press of "+melody);
-    var path = "path\\to\\melody\\"
-    var snd = new Audio(path + melody + ".wav");
-    snd.play();
-}
+// function PlaySound(melody) {
+//     //alert("On Press of "+melody);
+//     var path = "path\\to\\melody\\"
+//     var snd = new Audio(path + melody + ".wav");
+//     snd.play();
+// }
