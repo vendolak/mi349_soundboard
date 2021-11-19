@@ -1,0 +1,78 @@
+html {
+    background:rgb(233, 235, 218);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    color:rgb(58, 58, 58);
+    padding: 40px;
+    border-top: 10px solid rgb(135, 217, 238);
+    background:white;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    color:rgb(37, 88, 121);
+}
+
+p {
+    line-height: 1.4 em;
+}
+
+#dog1 {
+    color:rgb(37, 88, 121);
+}
+
+#dog2 {
+    color:rgb(37, 88, 121);
+}
+
+#hello-features {
+    color:rgb(37, 88, 121);
+}
+
+.section-heading {
+    color:rgb(26, 54, 71);
+}
+
+img[src] {
+    padding: 10px;
+    background: rgb(135, 217, 238);
+}
+
+.sticky {
+  color: white;
+  padding: 20px;
+  background: rgb(37, 88, 121);
+  position: sticky;
+  top: 0;
+}
+
+.img-container{
+  background: rgb(26, 54, 71);
+  height: 50px;
+  width: 50px;
+  float: top; 
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  background: rgb(135, 217, 238);
+  flex: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: lightgreen;
+    }
+}
