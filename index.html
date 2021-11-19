@@ -9,47 +9,12 @@
 </head>
 <body>
 
-<!-- <audio id="sounds" loop= "false" volume = "60">
-    <source src="bloop_x.wav" id="a" type="audio/wav">
-    <source src="airplane_chime_x.wav" id="b" type="audio/wav">
-    <source src="boing_x.wav" id="c" type="audio/wav">
-</audio>
-
--- <div class="keys">
-
-    <div class="key">
-         <a href="#" id="b1" type="button" class="key_link">Bloop</button>
-    </div>
-
-    <div class="key">
-        <a href="#" id="b2" type="button" class="key_link">Airplane</button>
-    </div>
-
-    <div class="key">
-        <a href="#" id="b3" type="button" class="key_link">Boing</button>
-    </div>
-</div> -->
-
-<!-- <button>
-    sound
-</button> -->
-
-<!-- <button onclick="PlaySound('bloop_x')"> button1</button>
-
-<script src="soundboard.js"></script>
-
-</body> --> 
-
 <script>
-var bflat = new Audio();
-bflat.src = "bflat.mp3";
-function PlaySound() {
-    bflat.play();
-}
+    function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    }
 </script>
-</head>
-<body>
-<audio id="bflat"> </audio>
-<button onclick="PlaySound()"> B Flat </button>
-</body>
-</html>
+
+<input type="button" value="PLAY" onclick="play()">
+<audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
