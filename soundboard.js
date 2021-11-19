@@ -2,9 +2,9 @@
     I'm a button!
 </button>
 
-var buttonElement = document.getElementById('my-first-button')
+var button = document.getElementById('b1');
 
-buttonElement.addEventListener('click', soundPlay());
+button.addEventListener('click', soundPlay); 
 
 function soundPlay(){
     var audio = new Audio("bloop_x.wav");
