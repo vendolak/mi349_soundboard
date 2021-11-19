@@ -4,6 +4,9 @@
 
 var buttonElement = document.getElementById('my-first-button')
 
-buttonElement.addEventListener('click', mouseenter() {
-    
-  })
+buttonElement.addEventListener('click', soundPlay());
+
+function soundPlay(){
+    var audio = new Audio("bloop_x.wav");
+    audio.play();
+}
