@@ -7,20 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <title>"soundboard"</title>
 </head>
-<body>
+    <body>
+        
+        <input type="button" value="Bloop" onclick="play()">
+        <audio id="audio" src="bloop_x.wav"></audio>
 
-<script>
-    function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
-    }
-</script>
+        <input type="button" value="Airplane" onclick="play()">
+        <audio id="audio" src="airplane_chime_x.wav"></audio>
 
-<input type="button" value="Bloop" onclick="play()">
-<audio id="audio" src="bloop_x.wav"></audio>
+        <input type="button" value="Boing" onclick="play()">
+        <audio id="audio" src="boing_x.wav"></audio>
 
-<input type="button" value="Airplane" onclick="play()">
-<audio id="audio" src="airplane_chime_x.wav"></audio>
+        <script src="script.js"></script>
 
-<input type="button" value="Boing" onclick="play()">
-<audio id="audio" src="boing_x.wav"></audio>
+    </body>
+</html>
